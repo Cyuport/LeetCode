@@ -10,6 +10,7 @@ def validateStackSequence(pushed: [int], popped: [int]) -> bool:
     while j < len(popped):
         if stack[-1] != popped[j]:
             return False
+        stack.pop()
         j += 1
     return True
 

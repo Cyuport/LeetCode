@@ -15,3 +15,5 @@ def letterCombinations(digits:str)->[str]:
 
 if __name__ == '__main__':
     print(letterCombinations('23'))
+    c = ['1','2','3']
+    print(''.join(c))
